@@ -1,12 +1,3 @@
 #!/bin/bash
-odd=1
-while read line
-do
-    if [ "$odd" -eq 1 ]
-    then
-        echo "$line"
-        odd=0
-    else
-        odd=1
-    fi
-done
+mapfile -t lines
+printf '%s\n' "${lines[@]:0:1}" "${lines[@]:2}"

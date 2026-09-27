@@ -1,2 +1,12 @@
 #!/bin/bash
-awk 'NR % 2 == 1'
+odd=1
+while read line
+do
+    if [ "$odd" -eq 1 ]
+    then
+        echo "$line"
+        odd=0
+    else
+        odd=1
+    fi
+done

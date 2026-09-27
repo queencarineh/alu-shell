@@ -1,6 +1,2 @@
 #!/bin/bash
-WATER=$(echo "$WATER" | tr 'water' '01234')
-STIR=$(echo "$STIR" | tr 'stir' '0123')
-SUM=$(echo "ibase=5; $WATER" | bc)
-SUM=$((SUM + $(echo "ibase=4; $STIR" | bc)))
-echo "obase=8; $SUM" | bc | tr '01234567' 'bestchol'
+printf '%o\n' "$((5#$(printf %s "$WATER" | tr water 01234)+5#$(printf %s "$STIR" | tr 'stir.' 01234)))" | tr 01234567 bestchol

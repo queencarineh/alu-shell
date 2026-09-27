@@ -1,3 +1,2 @@
 #!/bin/bash
-mapfile -t lines
-printf '%s\n' "${lines[@]:0:1}" "${lines[@]:2}"
+sed -n 'p;n'

@@ -1,5 +1,2 @@
 #!/bin/bash
-for file in $(find . -type f -name "*.gif" -printf '%f\n')
-do
-    echo "${file%.gif}"
-done | sort -f
+find . -type f -name "*.gif" -printf "%f\n" | rev | cut -d. -f2- | rev | sort -f

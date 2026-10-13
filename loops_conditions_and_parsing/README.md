@@ -7,6 +7,7 @@ Bash scripting exercises covering loops, conditions, and parsing.
 | File | Description |
 |------|-------------|
 | `1-for_best_school` | Displays "Best School" 10 times using a `for` loop |
+| `2-while_best_school` | Displays "Best School" 10 times using a `while` loop |
 
 ## Usage
 

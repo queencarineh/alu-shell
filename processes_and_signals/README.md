@@ -17,6 +17,8 @@ Bash scripting exercises covering processes and signals.
 | `67-stop_me_if_you_can` | Sends SIGTERM to the `7-highlander` process, using `pkill` |
 | `8-beheaded_process` | Kills the `7-highlander` process with SIGKILL, using `pkill -9` |
 | `10-process_and_pid_file` | Writes its PID to `/var/run/myscript.pid`, loops indefinitely and handles SIGTERM, SIGINT and SIGQUIT, using `trap` |
+| `manage_my_process` | Writes "I am alive!" to `/tmp/my_process` every 2 seconds |
+| `11-manage_my_process` | Init script supporting `start`, `stop` and `restart` for `manage_my_process` |
 
 ## Usage
 

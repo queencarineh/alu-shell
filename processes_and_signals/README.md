@@ -7,6 +7,7 @@ Bash scripting exercises covering processes and signals.
 | File | Description |
 |------|-------------|
 | `0-what-is-my-pid` | Displays its own PID |
+| `1-list_your_processes` | Lists all running processes in user-oriented format with hierarchy, using `ps auxf` |
 
 ## Usage
 

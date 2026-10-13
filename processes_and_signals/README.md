@@ -13,6 +13,8 @@ Bash scripting exercises covering processes and signals.
 | `4-to_infinity_and_beyond` | Displays "To infinity and beyond" indefinitely with a 2 second sleep, using `while` |
 | `5-dont_stop_me_now` | Stops the `4-to_infinity_and_beyond` process, using `kill` |
 | `6-stop_me_if_you_can` | Stops the `4-to_infinity_and_beyond` process, using `pkill` |
+| `7-highlander` | Displays "To infinity and beyond" indefinitely and prints "I am invincible!!!" on SIGTERM, using `trap` |
+| `67-stop_me_if_you_can` | Sends SIGTERM to the `7-highlander` process, using `pkill` |
 
 ## Usage
 

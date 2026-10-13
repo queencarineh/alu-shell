@@ -19,6 +19,7 @@ Bash scripting exercises covering loops, conditions, and parsing.
 | `11-read_and_cut` | Displays username, user id and home directory from `/etc/passwd`, using `while` and `read` |
 | `12-tell_the_story_of_passwd` | Tells a story from `/etc/passwd`, using `while` and `IFS` |
 | `13-lets_parse_apache_logs` | Displays visitor IP and HTTP status code from `apache-access.log`, using `awk` |
+| `14-dig_the-data` | Groups visitors by IP and HTTP status code, sorted by occurrences, using `awk` |
 | `apache-access.log` | Apache access log used by `13-lets_parse_apache_logs` |
 
 ## Usage

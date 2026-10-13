@@ -13,6 +13,7 @@ Bash scripting exercises covering loops, conditions, and parsing.
 | `5-4_bad_luck_8_is_your_chance` | Displays "bad luck" on the 4th, "good luck" on the 8th, "Best School" otherwise, using `while`, `if`, `elif`, `else` |
 | `6-superstitious_numbers` | Displays 1 to 20 with bad luck messages for 4, 9 and 17, using `while` and `case` |
 | `7-clock` | Displays hours 0 to 12 and minutes 1 to 59 using nested `while` loops |
+| `8-for_ls` | Lists the current directory, showing only the name after the first dash, using `for` |
 
 ## Usage
 

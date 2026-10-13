@@ -18,6 +18,8 @@ Bash scripting exercises covering loops, conditions, and parsing.
 | `10-fizzbuzz` | Displays 1 to 100, replacing multiples of 3, 5, and both with Fizz, Buzz, and FizzBuzz |
 | `11-read_and_cut` | Displays username, user id and home directory from `/etc/passwd`, using `while` and `read` |
 | `12-tell_the_story_of_passwd` | Tells a story from `/etc/passwd`, using `while` and `IFS` |
+| `13-lets_parse_apache_logs` | Displays visitor IP and HTTP status code from `apache-access.log`, using `awk` |
+| `apache-access.log` | Apache access log used by `13-lets_parse_apache_logs` |
 
 ## Usage
 

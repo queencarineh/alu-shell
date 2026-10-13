@@ -15,6 +15,7 @@ Bash scripting exercises covering processes and signals.
 | `6-stop_me_if_you_can` | Stops the `4-to_infinity_and_beyond` process, using `pkill` |
 | `7-highlander` | Displays "To infinity and beyond" indefinitely and prints "I am invincible!!!" on SIGTERM, using `trap` |
 | `67-stop_me_if_you_can` | Sends SIGTERM to the `7-highlander` process, using `pkill` |
+| `8-beheaded_process` | Kills the `7-highlander` process with SIGKILL, using `pkill -9` |
 
 ## Usage
 

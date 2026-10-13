@@ -10,6 +10,7 @@ Bash scripting exercises covering processes and signals.
 | `1-list_your_processes` | Lists all running processes in user-oriented format with hierarchy, using `ps auxf` |
 | `2-show_your_bash_pid` | Displays lines containing `bash` from the process list, using `ps` and `grep` |
 | `3-show_your_bash_pid_made_easy` | Displays PID and name of processes containing `bash`, using `pgrep` |
+| `4-to_infinity_and_beyond` | Displays "To infinity and beyond" indefinitely with a 2 second sleep, using `while` |
 
 ## Usage
 
